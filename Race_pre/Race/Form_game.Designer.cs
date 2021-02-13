@@ -1,0 +1,407 @@
+﻿namespace Race
+{
+    partial class Form_game
+    {
+        /// <summary>
+        /// Обязательная переменная конструктора.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Освободить все используемые ресурсы.
+        /// </summary>
+        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Код, автоматически созданный конструктором форм Windows
+
+        /// <summary>
+        /// Требуемый метод для поддержки конструктора — не изменяйте 
+        /// содержимое этого метода с помощью редактора кода.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_game));
+            this.timer_main = new System.Windows.Forms.Timer(this.components);
+            this.timer_left = new System.Windows.Forms.Timer(this.components);
+            this.timer_right = new System.Windows.Forms.Timer(this.components);
+            this.timer_up = new System.Windows.Forms.Timer(this.components);
+            this.timer_down = new System.Windows.Forms.Timer(this.components);
+            this.label_score = new System.Windows.Forms.Label();
+            this.label_over = new System.Windows.Forms.Label();
+            this.button_retry = new System.Windows.Forms.Button();
+            this.button_menu = new System.Windows.Forms.Button();
+            this.label_scor = new System.Windows.Forms.Label();
+            this.button_pause = new System.Windows.Forms.Button();
+            this.button_resume = new System.Windows.Forms.Button();
+            this.label_start = new System.Windows.Forms.Label();
+            this.timer_start = new System.Windows.Forms.Timer(this.components);
+            this.picture_easter = new System.Windows.Forms.PictureBox();
+            this.picture_lost = new System.Windows.Forms.PictureBox();
+            this.car_enemy4 = new System.Windows.Forms.PictureBox();
+            this.car_enemy3 = new System.Windows.Forms.PictureBox();
+            this.car_enemy2 = new System.Windows.Forms.PictureBox();
+            this.car_enemy1 = new System.Windows.Forms.PictureBox();
+            this.car_main = new System.Windows.Forms.PictureBox();
+            this.p1 = new System.Windows.Forms.PictureBox();
+            this.p2 = new System.Windows.Forms.PictureBox();
+            this.timer_easter = new System.Windows.Forms.Timer(this.components);
+            this.picture_catch = new System.Windows.Forms.PictureBox();
+            this.label_bonus = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_easter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_lost)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.car_enemy4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.car_enemy3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.car_enemy2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.car_enemy1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.car_main)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_catch)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // timer_main
+            // 
+            this.timer_main.Interval = 10;
+            this.timer_main.Tick += new System.EventHandler(this.timer_main_Tick);
+            // 
+            // timer_left
+            // 
+            this.timer_left.Interval = 10;
+            this.timer_left.Tick += new System.EventHandler(this.timer_left_Tick);
+            // 
+            // timer_right
+            // 
+            this.timer_right.Interval = 10;
+            this.timer_right.Tick += new System.EventHandler(this.timer_right_Tick);
+            // 
+            // timer_up
+            // 
+            this.timer_up.Interval = 5;
+            this.timer_up.Tick += new System.EventHandler(this.timer_up_Tick);
+            // 
+            // timer_down
+            // 
+            this.timer_down.Interval = 5;
+            this.timer_down.Tick += new System.EventHandler(this.timer_down_Tick);
+            // 
+            // label_score
+            // 
+            this.label_score.AutoSize = true;
+            this.label_score.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(124)))), ((int)(((byte)(111)))));
+            this.label_score.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_score.Location = new System.Drawing.Point(688, 9);
+            this.label_score.Name = "label_score";
+            this.label_score.Size = new System.Drawing.Size(62, 16);
+            this.label_score.TabIndex = 7;
+            this.label_score.Text = "Score: 0";
+            // 
+            // label_over
+            // 
+            this.label_over.AutoSize = true;
+            this.label_over.BackColor = System.Drawing.Color.White;
+            this.label_over.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_over.ForeColor = System.Drawing.Color.Red;
+            this.label_over.Location = new System.Drawing.Point(311, 12);
+            this.label_over.Name = "label_over";
+            this.label_over.Size = new System.Drawing.Size(166, 33);
+            this.label_over.TabIndex = 9;
+            this.label_over.Text = "Game Over";
+            this.label_over.Visible = false;
+            // 
+            // button_retry
+            // 
+            this.button_retry.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_retry.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_retry.Location = new System.Drawing.Point(317, 268);
+            this.button_retry.Name = "button_retry";
+            this.button_retry.Size = new System.Drawing.Size(85, 25);
+            this.button_retry.TabIndex = 10;
+            this.button_retry.TabStop = false;
+            this.button_retry.Text = "Try again";
+            this.button_retry.UseVisualStyleBackColor = true;
+            this.button_retry.Visible = false;
+            this.button_retry.Click += new System.EventHandler(this.button_retry_Click);
+            // 
+            // button_menu
+            // 
+            this.button_menu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_menu.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_menu.Location = new System.Drawing.Point(408, 268);
+            this.button_menu.Name = "button_menu";
+            this.button_menu.Size = new System.Drawing.Size(85, 25);
+            this.button_menu.TabIndex = 11;
+            this.button_menu.TabStop = false;
+            this.button_menu.Text = "Main menu";
+            this.button_menu.UseVisualStyleBackColor = true;
+            this.button_menu.Visible = false;
+            this.button_menu.Click += new System.EventHandler(this.button_menu_Click);
+            // 
+            // label_scor
+            // 
+            this.label_scor.AutoSize = true;
+            this.label_scor.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_scor.Location = new System.Drawing.Point(323, 320);
+            this.label_scor.Name = "label_scor";
+            this.label_scor.Size = new System.Drawing.Size(170, 33);
+            this.label_scor.TabIndex = 12;
+            this.label_scor.Text = "Your score:";
+            this.label_scor.Visible = false;
+            // 
+            // button_pause
+            // 
+            this.button_pause.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_pause.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_pause.Location = new System.Drawing.Point(665, 375);
+            this.button_pause.Name = "button_pause";
+            this.button_pause.Size = new System.Drawing.Size(91, 25);
+            this.button_pause.TabIndex = 0;
+            this.button_pause.TabStop = false;
+            this.button_pause.Text = "Pause Game";
+            this.button_pause.UseVisualStyleBackColor = true;
+            this.button_pause.Click += new System.EventHandler(this.button_pause_Click);
+            // 
+            // button_resume
+            // 
+            this.button_resume.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_resume.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_resume.Location = new System.Drawing.Point(665, 375);
+            this.button_resume.Name = "button_resume";
+            this.button_resume.Size = new System.Drawing.Size(91, 25);
+            this.button_resume.TabIndex = 13;
+            this.button_resume.TabStop = false;
+            this.button_resume.Text = "Resume Game";
+            this.button_resume.UseVisualStyleBackColor = true;
+            this.button_resume.Visible = false;
+            this.button_resume.Click += new System.EventHandler(this.button_resume_Click);
+            // 
+            // label_start
+            // 
+            this.label_start.AutoSize = true;
+            this.label_start.Font = new System.Drawing.Font("Ravie", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_start.ForeColor = System.Drawing.Color.Red;
+            this.label_start.Location = new System.Drawing.Point(352, 164);
+            this.label_start.Name = "label_start";
+            this.label_start.Size = new System.Drawing.Size(105, 50);
+            this.label_start.TabIndex = 14;
+            this.label_start.Text = "3...";
+            // 
+            // timer_start
+            // 
+            this.timer_start.Enabled = true;
+            this.timer_start.Interval = 1150;
+            this.timer_start.Tick += new System.EventHandler(this.timer_start_Tick);
+            // 
+            // picture_easter
+            // 
+            this.picture_easter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.picture_easter.Image = global::Race.Properties.Resources.turbo;
+            this.picture_easter.Location = new System.Drawing.Point(783, 200);
+            this.picture_easter.Name = "picture_easter";
+            this.picture_easter.Size = new System.Drawing.Size(100, 50);
+            this.picture_easter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picture_easter.TabIndex = 15;
+            this.picture_easter.TabStop = false;
+            // 
+            // picture_lost
+            // 
+            this.picture_lost.BackColor = System.Drawing.Color.Transparent;
+            this.picture_lost.Location = new System.Drawing.Point(195, 12);
+            this.picture_lost.Name = "picture_lost";
+            this.picture_lost.Size = new System.Drawing.Size(400, 250);
+            this.picture_lost.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picture_lost.TabIndex = 8;
+            this.picture_lost.TabStop = false;
+            this.picture_lost.Visible = false;
+            // 
+            // car_enemy4
+            // 
+            this.car_enemy4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.car_enemy4.Location = new System.Drawing.Point(598, -200);
+            this.car_enemy4.Name = "car_enemy4";
+            this.car_enemy4.Size = new System.Drawing.Size(40, 80);
+            this.car_enemy4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.car_enemy4.TabIndex = 6;
+            this.car_enemy4.TabStop = false;
+            // 
+            // car_enemy3
+            // 
+            this.car_enemy3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.car_enemy3.Location = new System.Drawing.Point(445, -150);
+            this.car_enemy3.Name = "car_enemy3";
+            this.car_enemy3.Size = new System.Drawing.Size(40, 80);
+            this.car_enemy3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.car_enemy3.TabIndex = 5;
+            this.car_enemy3.TabStop = false;
+            // 
+            // car_enemy2
+            // 
+            this.car_enemy2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.car_enemy2.Location = new System.Drawing.Point(286, -100);
+            this.car_enemy2.Name = "car_enemy2";
+            this.car_enemy2.Size = new System.Drawing.Size(40, 80);
+            this.car_enemy2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.car_enemy2.TabIndex = 4;
+            this.car_enemy2.TabStop = false;
+            // 
+            // car_enemy1
+            // 
+            this.car_enemy1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.car_enemy1.Location = new System.Drawing.Point(170, -100);
+            this.car_enemy1.Name = "car_enemy1";
+            this.car_enemy1.Size = new System.Drawing.Size(40, 80);
+            this.car_enemy1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.car_enemy1.TabIndex = 3;
+            this.car_enemy1.TabStop = false;
+            // 
+            // car_main
+            // 
+            this.car_main.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.car_main.Location = new System.Drawing.Point(417, 320);
+            this.car_main.Name = "car_main";
+            this.car_main.Size = new System.Drawing.Size(40, 80);
+            this.car_main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.car_main.TabIndex = 2;
+            this.car_main.TabStop = false;
+            // 
+            // p1
+            // 
+            this.p1.BackColor = System.Drawing.Color.Transparent;
+            this.p1.Image = ((System.Drawing.Image)(resources.GetObject("p1.Image")));
+            this.p1.Location = new System.Drawing.Point(0, 0);
+            this.p1.Name = "p1";
+            this.p1.Size = new System.Drawing.Size(784, 460);
+            this.p1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.p1.TabIndex = 0;
+            this.p1.TabStop = false;
+            // 
+            // p2
+            // 
+            this.p2.BackColor = System.Drawing.Color.Gray;
+            this.p2.Image = global::Race.Properties.Resources.background_road;
+            this.p2.Location = new System.Drawing.Point(0, -460);
+            this.p2.Name = "p2";
+            this.p2.Size = new System.Drawing.Size(784, 460);
+            this.p2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.p2.TabIndex = 1;
+            this.p2.TabStop = false;
+            // 
+            // timer_easter
+            // 
+            this.timer_easter.Interval = 10;
+            this.timer_easter.Tick += new System.EventHandler(this.timer_easter_Tick);
+            // 
+            // picture_catch
+            // 
+            this.picture_catch.Image = global::Race.Properties.Resources.easter;
+            this.picture_catch.Location = new System.Drawing.Point(623, 212);
+            this.picture_catch.Name = "picture_catch";
+            this.picture_catch.Size = new System.Drawing.Size(100, 50);
+            this.picture_catch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picture_catch.TabIndex = 16;
+            this.picture_catch.TabStop = false;
+            this.picture_catch.Visible = false;
+            // 
+            // label_bonus
+            // 
+            this.label_bonus.AutoSize = true;
+            this.label_bonus.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_bonus.ForeColor = System.Drawing.Color.Red;
+            this.label_bonus.Location = new System.Drawing.Point(323, 117);
+            this.label_bonus.Name = "label_bonus";
+            this.label_bonus.Size = new System.Drawing.Size(164, 33);
+            this.label_bonus.TabIndex = 17;
+            this.label_bonus.Text = "BONUS 20!";
+            this.label_bonus.Visible = false;
+            // 
+            // Form_game
+            // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BackgroundImage = global::Race.Properties.Resources.background_road;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.label_bonus);
+            this.Controls.Add(this.picture_catch);
+            this.Controls.Add(this.picture_easter);
+            this.Controls.Add(this.label_start);
+            this.Controls.Add(this.button_resume);
+            this.Controls.Add(this.button_pause);
+            this.Controls.Add(this.label_scor);
+            this.Controls.Add(this.button_menu);
+            this.Controls.Add(this.button_retry);
+            this.Controls.Add(this.label_over);
+            this.Controls.Add(this.picture_lost);
+            this.Controls.Add(this.label_score);
+            this.Controls.Add(this.car_enemy4);
+            this.Controls.Add(this.car_enemy3);
+            this.Controls.Add(this.car_enemy2);
+            this.Controls.Add(this.car_enemy1);
+            this.Controls.Add(this.car_main);
+            this.Controls.Add(this.p1);
+            this.Controls.Add(this.p2);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Form_game";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_game_KeyDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form_game_KeyUp);
+            ((System.ComponentModel.ISupportInitialize)(this.picture_easter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_lost)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.car_enemy4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.car_enemy3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.car_enemy2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.car_enemy1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.car_main)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_catch)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        
+        private System.Windows.Forms.PictureBox p1;
+        private System.Windows.Forms.PictureBox p2;
+        private System.Windows.Forms.PictureBox car_main;
+        private System.Windows.Forms.PictureBox car_enemy1;
+        private System.Windows.Forms.PictureBox car_enemy2;
+        private System.Windows.Forms.PictureBox car_enemy3;
+        private System.Windows.Forms.PictureBox car_enemy4;
+        private System.Windows.Forms.Timer timer_main;
+        private System.Windows.Forms.Timer timer_left;
+        private System.Windows.Forms.Timer timer_right;
+        private System.Windows.Forms.Timer timer_up;
+        private System.Windows.Forms.Timer timer_down;
+        private System.Windows.Forms.Label label_score;
+        private System.Windows.Forms.PictureBox picture_lost;
+        private System.Windows.Forms.Label label_over;
+        private System.Windows.Forms.Button button_retry;
+        private System.Windows.Forms.Button button_menu;
+        private System.Windows.Forms.Label label_scor;
+        private System.Windows.Forms.Button button_pause;
+        private System.Windows.Forms.Button button_resume;
+        private System.Windows.Forms.Label label_start;
+        private System.Windows.Forms.Timer timer_start;
+        private System.Windows.Forms.PictureBox picture_easter;
+        private System.Windows.Forms.Timer timer_easter;
+        private System.Windows.Forms.PictureBox picture_catch;
+        private System.Windows.Forms.Label label_bonus;
+    }
+}
+
