@@ -1,0 +1,22 @@
+C:\Users\Airat\source\repos\Race\Race\obj\Debug\Race.csprojAssemblyReference.cache
+C:\Users\Airat\source\repos\Race\Race\obj\Debug\Race.Form_game.resources
+C:\Users\Airat\source\repos\Race\Race\obj\Debug\Race.Form_main.resources
+C:\Users\Airat\source\repos\Race\Race\obj\Debug\Race.Properties.Resources.resources
+C:\Users\Airat\source\repos\Race\Race\obj\Debug\Race.Form_settings.resources
+C:\Users\Airat\source\repos\Race\Race\obj\Debug\Race.csproj.GenerateResource.cache
+C:\Users\Airat\source\repos\Race\Race\obj\Debug\Race.csproj.CoreCompileInputs.cache
+C:\Users\Airat\source\repos\Race\Race\bin\Debug\Race.exe
+C:\Users\Airat\source\repos\Race\Race\bin\Debug\Race.pdb
+C:\Users\Airat\source\repos\Race\Race\obj\Debug\Race.exe
+C:\Users\Airat\source\repos\Race\Race\obj\Debug\Race.pdb
+C:\Users\Airat\Documents\Race pre\Race\bin\Debug\Race.exe
+C:\Users\Airat\Documents\Race pre\Race\bin\Debug\Race.pdb
+C:\Users\Airat\Documents\Race pre\Race\obj\Debug\Race.csprojAssemblyReference.cache
+C:\Users\Airat\Documents\Race pre\Race\obj\Debug\Race.Form_game.resources
+C:\Users\Airat\Documents\Race pre\Race\obj\Debug\Race.Form_main.resources
+C:\Users\Airat\Documents\Race pre\Race\obj\Debug\Race.Properties.Resources.resources
+C:\Users\Airat\Documents\Race pre\Race\obj\Debug\Race.Form_settings.resources
+C:\Users\Airat\Documents\Race pre\Race\obj\Debug\Race.csproj.GenerateResource.cache
+C:\Users\Airat\Documents\Race pre\Race\obj\Debug\Race.csproj.CoreCompileInputs.cache
+C:\Users\Airat\Documents\Race pre\Race\obj\Debug\Race.exe
+C:\Users\Airat\Documents\Race pre\Race\obj\Debug\Race.pdb
